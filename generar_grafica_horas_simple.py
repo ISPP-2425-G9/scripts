@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-csv_path = "clockify_reports/clockify_report_sprint3_final_1004.csv"
+csv_path = "example_reports/clockify_report.csv"
 
 def generar_grafica(csv_path):
     # Cargar el archivo CSV

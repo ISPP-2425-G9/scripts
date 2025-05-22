@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from numpy import polyfit
 
 # Cargar el archivo CSV
-file_path = 'rendientoXhoras_reports/horas_rendimiento_1004.csv' # Cambia esto por la ruta de tu archivo
+file_path = 'example_reports/horas_rendimiento.csv' # Cambia esto por la ruta de tu archivo
 data = pd.read_csv(file_path)
 
 # Definir la posición de la línea vertical ajustable

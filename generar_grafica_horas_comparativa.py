@@ -2,8 +2,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-csv_path = "clockify_reports/clockify_report_sprint3_final_1004.csv"
-csv_path_comparativo = "clockify_reports/clockify_report_2703.csv"
+csv_path = "example_reports/clockify_report.csv"
+csv_path_comparativo = "example_reports/clockify_report.csv"
 
 def generar_grafica(csv_path, csv_path_comparativo):
     # Cargar los CSV

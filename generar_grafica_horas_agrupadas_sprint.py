@@ -71,5 +71,5 @@ def grafica_barras_apiladas_por_proyecto(csv_path):
 
 # 👉 USO:
 # Reemplaza con tu ruta
-ruta_csv = "clockify_sprint_report2504.csv"
+ruta_csv = "clockify_sprint_report.csv"
 grafica_barras_apiladas_por_proyecto(ruta_csv)
