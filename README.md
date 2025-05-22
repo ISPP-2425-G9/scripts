@@ -28,8 +28,6 @@ pip install -r requirements.txt
 - pip (Python package installer)
 - Git (optional, for cloning the repository)
 
----
-
 ## 🧪 Setting Up a Virtual Environment
 
 To avoid dependency conflicts, it's recommended to use a virtual environment.
@@ -51,7 +49,6 @@ source venv/bin/activate
 
 You should see the environment name (`venv`) in your terminal prompt after activation.
 
----
 
 ## 📦 Installing Dependencies
 
@@ -64,7 +61,6 @@ pip install -r requirements.txt
 
 This will install all required Python packages for the scripts to work properly.
 
----
 
 ## 🚀 Running the Scripts
 
@@ -84,7 +80,9 @@ python group_analysis.py
 
 Replace `<script_name>.py` with the actual name of the script you want to run.
 
----
+### 🗂 CSV Input Files
+
+Each script requires an input CSV file to function correctly. These CSV files are generated from Clockify, a time tracking tool. The data exported from Clockify must follow a specific format to be compatible with the analysis scripts. The required format and example data can be found in the test CSV files located in the `csv` directory. **Please ensure your exported Clockify data matches this format before running any script.**
 
 ## 🔄 Updating Dependencies
 
@@ -95,7 +93,6 @@ If you add or update packages, you can regenerate the `requirements.txt` file wi
 pip freeze > requirements.txt
 ```
 
----
 
 ## ❌ Deactivating the Environment
 
@@ -105,8 +102,6 @@ To deactivate the virtual environment at any time:
 ```bash
 deactivate
 ```
-
----
 
 ## 🧑‍💻 Author
 
